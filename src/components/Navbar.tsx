@@ -9,13 +9,15 @@ export default function Navbar() {
 }
 
 const header: React.CSSProperties = {
-  backgroundColor: 'darkgrey',
+  backgroundColor: 'black',
   height: '5rem',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 }
 
 const headerItem: React.CSSProperties = {
-  fontSize: '2rem',
+  fontSize: '3rem',
   textAlign: 'center',
-  lineHeight: '5rem',
-  verticalAlign: 'middle'
+  margin: 0
 }
